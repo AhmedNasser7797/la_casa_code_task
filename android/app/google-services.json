@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "354153344914",
+    "project_id": "lacasacodetask",
+    "storage_bucket": "lacasacodetask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354153344914:android:246aa3688e336d6b1d9b4b",
+        "android_client_info": {
+          "package_name": "com.example.la_casa_code_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354153344914-n6gkltcftqvj4gth8k8a9pk2ppfu3v75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpj3lQ2JARPKvEWgbc0cSQ-W2adwqNo00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354153344914-n6gkltcftqvj4gth8k8a9pk2ppfu3v75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
