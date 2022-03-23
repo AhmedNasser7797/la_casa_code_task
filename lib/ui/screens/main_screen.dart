@@ -18,7 +18,6 @@ class _MainScreenState extends State<MainScreen> {
   Future<void> getDoctors() async {
     try {
       LoadingScreen.show(context);
-
       await context.read<DoctorsProvider>().getDoctors();
       Navigator.of(context).pop();
     } on FirebaseException catch (e, s) {
@@ -49,6 +48,7 @@ class _MainScreenState extends State<MainScreen> {
       appBar: AppBar(
         title: const Text("Welcome To Clinic Name"),
         centerTitle: true,
+        automaticallyImplyLeading: false,
       ),
       body: doctors.doctors.isEmpty
           ? const Center(

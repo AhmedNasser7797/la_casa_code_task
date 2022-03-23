@@ -117,12 +117,6 @@ class _SignupScreenState extends State<SignupScreen> {
       appBar: AppBar(
         title: const Text(
           'Sign Up',
-          style: TextStyle(
-            fontSize: 20,
-            color: Color(0xff055261),
-            fontWeight: FontWeight.w600,
-          ),
-          textAlign: TextAlign.left,
         ),
         leading: const BackButton(
           color: Colors.black,
